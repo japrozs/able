@@ -1,0 +1,16 @@
+fragment RegularProduct on Product {
+    id
+    name
+    description
+    keys {
+        id
+        name
+        value
+        productId
+        createdAt
+        updatedAt
+    }
+    creatorId
+    createdAt
+    updatedAt
+}
